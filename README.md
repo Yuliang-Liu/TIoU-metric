@@ -1,7 +1,7 @@
-#TIoU-metric
+# TIoU-metric
 Release on 27/03/2019. This repository is built on the ICDAR 2015 evaluation code.
 
-#Description
+# Description
 Evaluation protocols plays key role in the developmental progress of text detection methods. There are strict requirements to ensure that the evaluation methods are fair, objective and reasonable. However, existing metrics exhibit some obvious drawbacks: 
 
 <div align=center><img src="Readme_sources/1.png" width="80%" ></div>
