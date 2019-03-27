@@ -51,7 +51,7 @@ After that you can see the evaluation resutls.
   ```
   Then run the code
   ```Shell
-  python script.py -g=gt.zip -gl=gt_textline -s=pixellinkch4.zip
+  python script.py -g=gt.zip -gl=gt_textline.zip -s=pixellinkch4.zip
   ```
 
 # Example Results
