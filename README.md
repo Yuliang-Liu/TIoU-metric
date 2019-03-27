@@ -55,25 +55,21 @@ After that you can see the evaluation resutls.
   ```
 
 # Example Results
-Qualitative results:
+### Qualitative results:
 <div align=center><img src="Readme_sources/1-2.png" width="100%" ></div>
-*Qualitative visualization of TIoU metric. Blue: Detection. Bold red: Target GT region. Light red: Other GT regions. Rec.: Recognition results by CRNN [24]. NED: Normalized edit distance. Previous metrics evaluate all detection results and target GTs as 100% precision and recall, respectively, while in TIoU metric, all matching pairs are penalized by different degrees. Ct is defined in Eq. 10. Ot is defined in Eq. 13. Please refer to our paper for all the references.
-<br/>
+*Qualitative visualization of TIoU metric. Blue: Detection. Bold red: Target GT region. Light red: Other GT regions. Rec.: Recognition results by CRNN [24]. NED: Normalized edit distance. Previous metrics evaluate all detection results and target GTs as 100% precision and recall, respectively, while in TIoU metric, all matching pairs are penalized by different degrees. Ct is defined in Eq. 10. Ot is defined in Eq. 13. Please refer to our paper for all the references. <br/>
   
-ICDAR 2013 results:
+### ICDAR 2013 results:
 <div align=center><img src="Readme_sources/1-3.png" width="100%" ></div>
-*Comparison of evaluation methods on ICDAR 2013 for general detection frameworks and previous state-of-the-art methods. det: DetEval. i: IoU. e1: End-to-end recognition results by using CRNN [24]. e2: End-to-end recognition results by using RARE [25]. t: TIoU.
-<br/>
+*Comparison of evaluation methods on ICDAR 2013 for general detection frameworks and previous state-of-the-art methods. det: DetEval. i: IoU. e1: End-to-end recognition results by using CRNN [24]. e2: End-to-end recognition results by using RARE [25]. t: TIoU. <br/>
   
-Line chart:
+### Line chart:
 <div align=center><img src="Readme_sources/1-5.png" width="80%" ></div>
-*(a) X-axis represents the detection methods listed in the Table above, and Y-axis represents the values of the F-measures. 
-<br/>
+*(a) X-axis represents the detection methods listed in the Table above, and Y-axis represents the values of the F-measures.  <br/>
   
-ICDAR 2015 results:
+### ICDAR 2015 results:
 <div align=center><img src="Readme_sources/1-4.png" width="100%" ></div>
-*Comparison of metrics on the ICDAR 2015 challenge 4. Word&Text-Line Annotations use our new solution to address OM and MO issues. i: IoU. s: SIoU. t: TIoU.
-<br/>
+*Comparison of metrics on the ICDAR 2015 challenge 4. Word&Text-Line Annotations use our new solution to address OM and MO issues. i: IoU. s: SIoU. t: TIoU. <br/>
 
 ## Citation
 　If you find our metric useful for your reserach, please cite (comming soon)
