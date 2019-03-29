@@ -72,8 +72,19 @@ After that you can see the evaluation resutls.
 *Comparison of metrics on the ICDAR 2015 challenge 4. Word&Text-Line Annotations use our new solution to address OM and MO issues. i: IoU. s: SIoU. t: TIoU. <br/>
 
 ## Citation
-　If you find our metric useful for your reserach, please cite (comming soon)
-	
+If you find our metric useful for your reserach, please cite (comming soon)
+
+## References
+If you are insterested in developing a better scene text detection metrics, some references recommended here might be useful.
+
+[[1]](https://link.springer.com/article/10.1007/s10032-006-0014-0) Wolf, Christian, and Jean-Michel Jolion. "Object count/area graphs for the evaluation of object detection and segmentation algorithms." International Journal of Document Analysis and Recognition (IJDAR) 8.4 (2006): 280-296.
+
+[[2]](https://www.sciencedirect.com/science/article/pii/S0262885615001377) Calarasanu, Stefania, Jonathan Fabrizio, and Severine Dubuisson. "What is a good evaluation protocol for text localization systems? Concerns, arguments, comparisons and solutions." Image and Vision Computing 46 (2016): 1-17.
+
+[[3]](https://ieeexplore.ieee.org/abstract/document/8395220) Dangla, Aliona, et al. "A first step toward a fair comparison of evaluation protocols for text detection algorithms." 2018 13th IAPR International Workshop on Document Analysis Systems (DAS). IEEE, 2018.
+
+[[4]](https://ieeexplore.ieee.org/abstract/document/8270164) Shi, Baoguang, et al. "ICDAR2017 competition on reading chinese text in the wild (RCTW-17)." 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR). Vol. 1. IEEE, 2017.
+
 ## Feedback 
   Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to 
   `liu.yuliang@mail.scut.edu.cn`.
