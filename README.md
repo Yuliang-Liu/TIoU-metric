@@ -75,7 +75,7 @@ After that you can see the evaluation resutls.
 If you find our metric useful for your reserach, please cite (comming soon)
 
 ## References
-If you are insterested in developing a better scene text detection metrics, some references recommended here might be useful.
+If you are insterested in developing better scene text detection metrics, some references recommended here might be useful.
 
 [[1]](https://link.springer.com/article/10.1007/s10032-006-0014-0) Wolf, Christian, and Jean-Michel Jolion. "Object count/area graphs for the evaluation of object detection and segmentation algorithms." International Journal of Document Analysis and Recognition (IJDAR) 8.4 (2006): 280-296.
 
