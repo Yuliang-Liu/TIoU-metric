@@ -86,8 +86,8 @@ If you are insterested in developing better scene text detection metrics, some r
 [[4]](https://ieeexplore.ieee.org/abstract/document/8270164) Shi, Baoguang, et al. "ICDAR2017 competition on reading chinese text in the wild (RCTW-17)." 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR). Vol. 1. IEEE, 2017.
 
 ## Feedback 
-  Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to 
-  `liu.yuliang@mail.scut.edu.cn`.
+  Suggestions and opinions of this metric (both positive and negative) are greatly welcome. Please contact the authors by sending email to 
+  `liu.yuliang@mail.scut.edu.cn` or `yuliang.liu@adelaide.edu.au`.
 
  <meta http-equiv="refresh" content="2.5">
 
