@@ -23,7 +23,7 @@ To address many existing issues of previous evaluation metrics, we propose an im
 
 * **Tightness of matching degree**
 
-We hope this work can raise the attentions of the text detection evaluation metrics and serve as a modest spur to more valuable contributions. More details can be found on our paper (comming soon). 
+We hope this work can raise the attentions of the text detection evaluation metrics and serve as a modest spur to more valuable contributions. More details can be found on our [paper](https://arxiv.org/abs/1904.00813). 
 
 # Clone the TIoU repository
 Clone the TIoU-metric repository
