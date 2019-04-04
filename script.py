@@ -165,8 +165,8 @@ def evaluate_method(gtFilePath, submFilePath, evaluationParams):
                     Ot = 0
             else:
                 Ot = 0
-            assert(Ot>=0 and Ot<=pD.area()), 'Invalid Ot value.'
-            assert(pD.area()>0)
+            assert(Ot>=0 and Ot<=pD.area()+0.001), 'Invalid Ot value: '+str(Ot)+' '+str(pD.area())
+            assert(pD.area()>0), 'Invalid pD: '+str(pD.area())
             return (get_intersection(pD, pG) * funcOt(Ot*1.0/pD.area())) / get_union(pD, pG);
         except Exception as e:
             print(e)
