@@ -53,7 +53,9 @@ After that you can see the evaluation resutls.
   ```Shell
   python script.py -g=gt.zip -gl=gt_textline.zip -s=pixellinkch4.zip
   ```
-
+# Support Curved Text Evaluation
+  Curved text requires polygonal input with mutable number of points. To evaluate your results on recent curved text benchmarks [Total-text](https://github.com/cs-chan/Total-Text-Dataset) or [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector), you can refer to curved-tiou/readme.md.
+   
 # Example Results
 ### Qualitative results:
 <div align=center><img src="Readme_sources/1-2.png" width="100%" ></div>
