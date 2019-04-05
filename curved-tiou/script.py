@@ -3,6 +3,7 @@
 from collections import namedtuple
 import rrc_evaluation_funcs
 import importlib
+import sys
 
 import math 
 
@@ -19,16 +20,29 @@ def default_evaluation_params():
     """
     default_evaluation_params: Default parameters to use for the validation and evaluation.
     """
-    return {
-                'IOU_CONSTRAINT' :0.5,
-                'AREA_PRECISION_CONSTRAINT' :0.5,
-                'GT_SAMPLE_NAME_2_ID':'([0-9]+).txt',
-                'DET_SAMPLE_NAME_2_ID':'([0-9]+).txt',
-                'LTRB':False, #LTRB:2points(left,top,right,bottom) or 4 points(x1,y1,x2,y2,x3,y3,x4,y4)
-                'CRLF':False, # Lines are delimited by Windows CRLF format
-                'CONFIDENCES':False, #Detections must include confidence value. AP will be calculated
-                'PER_SAMPLE_RESULTS':True #Generate per sample results and produce data for visualization
-            }
+    p = dict([s[1:].split('=') for s in sys.argv[1:]])
+    if p['g'] == 'ctw1500-gt.zip':
+        return {
+                    'IOU_CONSTRAINT' :0.5,
+                    'AREA_PRECISION_CONSTRAINT' :0.5,
+                    'GT_SAMPLE_NAME_2_ID':'([0-9]+).txt',
+                    'DET_SAMPLE_NAME_2_ID':'([0-9]+).txt',
+                    'LTRB':False, #LTRB:2points(left,top,right,bottom) or 4 points(x1,y1,x2,y2,x3,y3,x4,y4)
+                    'CRLF':False, # Lines are delimited by Windows CRLF format
+                    'CONFIDENCES':False, #Detections must include confidence value. AP will be calculated
+                    'PER_SAMPLE_RESULTS':True #Generate per sample results and produce data for visualization
+                }
+    elif p['g'] == 'total-text-gt.zip':
+        return {
+                    'IOU_CONSTRAINT' :0.5,
+                    'AREA_PRECISION_CONSTRAINT' :0.5,
+                    'GT_SAMPLE_NAME_2_ID':'poly_gt_img([0-9]+).txt',
+                    'DET_SAMPLE_NAME_2_ID':'img([0-9]+).txt',
+                    'LTRB':False, #LTRB:2points(left,top,right,bottom) or 4 points(x1,y1,x2,y2,x3,y3,x4,y4)
+                    'CRLF':False, # Lines are delimited by Windows CRLF format
+                    'CONFIDENCES':False, #Detections must include confidence value. AP will be calculated
+                    'PER_SAMPLE_RESULTS':True #Generate per sample results and produce data for visualization
+                }
 
 def validate_data(gtFilePath, submFilePath,evaluationParams):
     """
@@ -72,7 +86,6 @@ def evaluate_method(gtFilePath, submFilePath, evaluationParams):
             resBoxes[0, inp/2] = int(points[inp])
             resBoxes[0, inp/2+num_points/2] = int(points[inp+1])
         pointMat = resBoxes[0].reshape([2,num_points/2]).T
-
         return plg.Polygon(pointMat)    
     
     def rectangle_to_polygon(rect):
