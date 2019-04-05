@@ -40,11 +40,11 @@ Run
 will produce
 
 ```
-('num_gt, num_det: ', 2545, 2098)
+('num_gt, num_det: ', 2214, 2098)
 Origin:
-('recall: ', 0.6358, 'precision: ', 0.7712, 'hmean: ', 0.697)
+('recall: ', 0.7014, 'precision: ', 0.8038, 'hmean: ', 0.7492)
 TIoU-metric:
-('tiouRecall:', 0.431, 'tiouPrecision:', 0.591, 'tiouHmean:', 0.498)
+('tiouRecall:', 0.479, 'tiouPrecision:', 0.619, 'tiouHmean:', 0.54)
 ```
 
 Note each line of each file of detection is following x,y,...,x,y.. format. (Official Total-text requires y,x,y,x,...)
