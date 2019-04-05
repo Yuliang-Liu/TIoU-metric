@@ -2,8 +2,6 @@
   
   TIoU-metric maybe more effective in evaluating curve text since IoU 0.5 for curved text could be visually unaccetable.
   
-# Getting Started
-
 ## Evaluating on SCUT-CTW1500
 det_ctw1500.zip is an example from [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector/tree/master/tools/ctw1500_evaluation) example results. 
 ctw1500-gt.zip is the gt of test set  from [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector).
@@ -27,3 +25,5 @@ TIoU-metric:
 ```
 
 The result is exactly the same as the official implement of [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector/tree/master/tools/ctw1500_evaluation).
+
+The ccw-sortdet.py might be helpful to transfer your result into valid format.
