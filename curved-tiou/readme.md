@@ -1,6 +1,6 @@
 # Introduction
   
-  TIoU-metric maybe more effective in evaluating curve text since IoU 0.5 for curved text could be visually unaccetable.
+  TIoU-metric maybe more effective in evaluating curved text since IoU 0.5 for curved text could be visually unaccetable.
   
 ## Evaluation on SCUT-CTW1500
 det_ctw1500.zip is an example detection results from [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector/tree/master/tools/ctw1500_evaluation). 
