@@ -26,7 +26,7 @@ TIoU-metric:
 
 The result is exactly the same as the official implement of [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector/tree/master/tools/ctw1500_evaluation).
 
-The ccw-sortdet.py might be helpful to transfer your result into valid format.
+***The ccw-sortdet.py might be helpful to transfer your result into valid format.***
 
 ## Evaluation on Total-Text
 total-text_baseline.zip in an example from the author of [Total-Text](https://github.com/cs-chan/Total-Text-Dataset).
