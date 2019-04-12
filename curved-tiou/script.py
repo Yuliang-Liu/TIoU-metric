@@ -174,11 +174,12 @@ def evaluate_method(gtFilePath, submFilePath, evaluationParams):
                     Ot = 0
             else:
                 Ot = 0
-            assert(Ot>=0 and Ot<=pD.area()), str(Ot)+' '+str(pD.area())+' Invalid Ot value.'
+            # allow invalid polygon
+            assert(Ot>=0 and Ot<=pD.area())
             assert(pD.area()>0)
             return (get_intersection(pD, pG) * funcOt(Ot*1.0/pD.area())) / get_union(pD, pG);
         except Exception as e:
-            print(e)
+            # print(e)
             return 0
 
 
