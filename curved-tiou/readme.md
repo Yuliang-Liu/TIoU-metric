@@ -24,7 +24,7 @@ TIoU-metric:
 ('tiouRecall:', 0.52, 'tiouPrecision:', 0.572, 'tiouHmean:', 0.545)
 ```
 
-The result is exactly the same as the official implement of [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector/tree/master/tools/ctw1500_evaluation).
+The result is exactly the same as the official implement of [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector/tree/master/tools/ctw1500_evaluation). The only difference is this script allow invalid polygon (polygon has intersection sides) to be evaluated. 
 
 ***The ccw-sortdet.py might be helpful to transfer your result into valid format.***
 
