@@ -13,9 +13,9 @@ We sincerely appreciate the authors of recent and previous state-of-the-art meth
 |CRAFT [[paper]](https://arxiv.org/abs/1904.01941) | 54.1 | 65.5 | 59.3 | CVPR 2019 |
 |CTD+TLOC [[paper]](https://arxiv.org/abs/1712.02170)[[code]](https://github.com/Yuliang-Liu/Curve-Text-Detector) | 50.8     |  62.0       |    55.8      |   arXiv 1712 | 
 |PSENet [[paper]](https://arxiv.org/abs/1903.12473)[[code]](https://github.com/whai362/PSENet)  | 53.3 |  66.9      |    59.3     |  CVPR 2019 |
+|CRAFT [[paper]](https://arxiv.org/abs/1904.01941) | 54.1 | 65.5 | 59.3 | CVPR 2019 |
 |TextField [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8648420)|  58.0    |  63.0    |    60.4      |   TIP 2019 |
 |Mask TextSpotter [[paper]](https://arxiv.org/abs/1807.02242)|  54.5    |  68.0    |    60.5      |   ECCV 2018 |
-|CRAFT [[paper]](https://arxiv.org/abs/1904.01941) | 54.1 | 65.5 | 59.3 | CVPR 2019 |
 |SPCNet [[paper]](https://arxiv.org/abs/1811.08605) | 61.8     |  69.4       |    65.4      |   AAAI 2019 | 
 
 ### CTW1500
