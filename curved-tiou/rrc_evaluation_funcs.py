@@ -228,9 +228,9 @@ def validate_clockwise_points(points):
         pdet = Polygon(pts)
     except:
         assert(0), ('not a valid polygon', pts)
-    # Allow
-    # if not pdet.is_valid: 
-    #     assert(0), ('polygon has intersection sides', pts)
+    # The polygon should be valid.
+    if not pdet.is_valid: 
+        assert(0), ('polygon has intersection sides', pts)
     pRing = LinearRing(pts)
     if pRing.is_ccw:
         assert(0),  ("Points are not clockwise. The coordinates of bounding quadrilaterals have to be given in clockwise order. Regarding the correct interpretation of 'clockwise' remember that the image coordinate system used is the standard one, with the image origin at the upper left, the X axis extending to the right and Y axis extending downwards.")
