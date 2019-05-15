@@ -21,7 +21,11 @@ for i in files:
 		except Exception as e:
 			print('Not a valid polygon.', pgt)
 			continue
-
+		
+		if not pgt.is_valid: 
+		        print('GT polygon has intersecting sides.', pts)
+		        continue
+			
 		pRing = LinearRing(pts)
 		if pRing.is_ccw:
 			pts.reverse()
