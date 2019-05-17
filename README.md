@@ -27,7 +27,7 @@ We sincerely appreciate the authors of recent and previous state-of-the-art meth
 |CRAFT [[paper]](https://arxiv.org/abs/1904.01941) | 56.4 | 66.3 | 61.0 | CVPR 2019 |
 |MSR [[paper]](https://arxiv.org/abs/1901.02596)|  56.3    |  67.3     |    61.3    |   arXiv 1901 |
 |TextField [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8648420)|  57.2    |  66.2    |    61.4      |   TIP 2019 | 
-|TextMountain [[paper]](https://arxiv.org/pdf/1811.12786.pdf)  | 59.2   |  66.9       |    62.7     |  arXiv 1811 |
+|TextMountain [[paper]](https://arxiv.org/pdf/1811.12786.pdf)  | 60.7   |  68.1       |    64.2     |  arXiv 1811 |
 |PAN Mask R-CNN [[paper]](https://arxiv.org/pdf/1811.09058.pdf)| 61.0    |  70.0       |    65.2     |  WACV 2019 |
 
 # Description
