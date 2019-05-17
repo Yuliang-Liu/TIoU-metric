@@ -81,10 +81,11 @@ def evaluate_method(gtFilePath, submFilePath, evaluationParams):
         Returns a Polygon object to use with the Polygon2 class from a list of 8 points: x1,y1,x2,y2,x3,y3,x4,y4
         """        
         num_points = len(points)
-        resBoxes=np.empty([1,num_points],dtype='int32')
+        # resBoxes=np.empty([1,num_points],dtype='int32')
+        resBoxes=np.empty([1,num_points],dtype='float32')
         for inp in range(0, num_points, 2):
-            resBoxes[0, inp/2] = int(points[inp])
-            resBoxes[0, inp/2+num_points/2] = int(points[inp+1])
+            resBoxes[0, inp/2] = float(points[inp])
+            resBoxes[0, inp/2+num_points/2] = float(points[inp+1])
         pointMat = resBoxes[0].reshape([2,num_points/2]).T
         return plg.Polygon(pointMat)    
     
