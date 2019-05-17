@@ -103,7 +103,15 @@ After that you can see the evaluation resutls.
 *Comparison of metrics on the ICDAR 2015 challenge 4. Word&Text-Line Annotations use our new solution to address OM and MO issues. i: IoU. s: SIoU. t: TIoU. <br/>
 
 ## Citation
-If you find our metric useful for your reserach, please cite (comming soon)
+If you find our metric useful for your reserach, please cite
+```
+@article{liu2019tightness,
+  title={Tightness-aware Evaluation Protocol for Scene Text Detection},
+  author={Liu, Yuliang and Jin, Lianwen and Xie, Zecheng and Luo, Canjie and Zhang, Shuaitao and Xie, Lele},
+  journal={arXiv preprint arXiv:1904.00813},
+  year={2019}
+}
+```
 
 ## References
 If you are insterested in developing better scene text detection metrics, some references recommended here might be useful.
