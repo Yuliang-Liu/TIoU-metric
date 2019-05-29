@@ -11,6 +11,7 @@ We sincerely appreciate the authors of recent and previous state-of-the-art meth
 |LSN+CC [[paper]](https://arxiv.org/abs/1903.09837)| 48.4     |  59.8       |    53.5      |   arXiv 1903 |
 |Total-text-baseline [[paper]](https://github.com/cs-chan/Total-Text-Dataset)|  47.9    |  61.9    |    54.0      |   - |
 |CTD+TLOC [[paper]](https://arxiv.org/abs/1712.02170)[[code]](https://github.com/Yuliang-Liu/Curve-Text-Detector) | 50.8     |  62.0       |    55.8      |   arXiv 1712 | 
+|ATRR [[paper]](https://arxiv.org/pdf/1905.05980.pdf)| 53.7     |  63.5       |    58.2      |   CVPR 2019 |
 |PSENet [[paper]](https://arxiv.org/abs/1903.12473)[[code]](https://github.com/whai362/PSENet)  | 53.3 |  66.9      |    59.3     |  CVPR 2019 |
 |CRAFT [[paper]](https://arxiv.org/abs/1904.01941) | 54.1 | 65.5 | 59.3 | CVPR 2019 |
 |TextField [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8648420)|  58.0    |  63.0    |    60.4      |   TIP 2019 |
@@ -22,6 +23,7 @@ We sincerely appreciate the authors of recent and previous state-of-the-art meth
 | Methods on CTW1500     |  TIoU-Recall (%)  |  TIoU-Precision (%)  |   TIoU-Hmean (%)     |    Publication   | 
 |:--------:  | :-----:   | :----:      |  :-----:     | :-----: |
 |CTD+TLOC [[paper]](https://arxiv.org/abs/1712.02170)[[code]](https://github.com/Yuliang-Liu/Curve-Text-Detector) | 42.5     |  53.9       |    47.5      |   arXiv 1712 | 
+|ATRR [[paper]](https://arxiv.org/pdf/1905.05980.pdf)| 54.9     |  61.6       |    58.0      |   CVPR 2019 |
 |LSN+CC [[paper]](https://arxiv.org/abs/1903.09837)| 55.9     |  64.8       |    60.0      |   arXiv 1903 |
 |PSENet [[paper]](https://arxiv.org/abs/1903.12473)[[code]](https://github.com/whai362/PSENet)  | 54.9 |  67.6      |    60.6     |  CVPR 2019 |
 |CRAFT [[paper]](https://arxiv.org/abs/1904.01941) | 56.4 | 66.3 | 61.0 | CVPR 2019 |
