@@ -11,7 +11,7 @@ We sincerely appreciate the authors of recent and previous state-of-the-art meth
 | Methods on Total-Text     |  TIoU-Recall (%)  |  TIoU-Precision (%)  |   TIoU-Hmean (%)     |    Publication   | 
 |:--------:  | :-----:   | :----:      |  :-----:     | :-----: |
 |LSN+CC [[paper]](https://arxiv.org/abs/1903.09837)| 48.4     |  59.8       |    53.5      |   arXiv 1903 |
-|Total-text-baseline [[paper]](https://github.com/cs-chan/Total-Text-Dataset)|  47.9    |  61.9    |    54.0      |   - |
+|Total-text-baseline [[paper]](https://github.com/cs-chan/Total-Text-Dataset)|  47.9    |  61.9    |    54.0      |  IJDAR 2019 |
 |CTD+TLOC [[paper]](https://arxiv.org/abs/1712.02170)[[code]](https://github.com/Yuliang-Liu/Curve-Text-Detector) | 50.8     |  62.0       |    55.8      |   arXiv 1712 | 
 |ATRR [[paper]](https://arxiv.org/pdf/1905.05980.pdf)| 53.7     |  63.5       |    58.2      |   CVPR 2019 |
 |PSENet [[paper]](https://arxiv.org/abs/1903.12473)[[code]](https://github.com/whai362/PSENet)  | 53.3 |  66.9      |    59.3     |  CVPR 2019 |
