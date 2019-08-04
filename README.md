@@ -112,7 +112,7 @@ If you find our metric useful for your reserach, please cite
 @article{liu2019tightness,
   title={Tightness-aware Evaluation Protocol for Scene Text Detection},
   author={Liu, Yuliang and Jin, Lianwen and Xie, Zecheng and Luo, Canjie and Zhang, Shuaitao and Xie, Lele},
-  journal={arXiv preprint arXiv:1904.00813},
+  journal={CVPR},
   year={2019}
 }
 ```
