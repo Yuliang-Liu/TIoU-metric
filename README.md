@@ -3,6 +3,8 @@ Release on 27/03/2019. This repository is built on the ICDAR 2015 evaluation cod
 
 * If you propose a better metric and require further evaluation, we can provide all the detection results used on this paper.  For this purpose, you can send email to liu.yuliang@mail.scut.edu.cn and copy to lianwen.jin@gmail.com.
 
+* [[Python 3 version]](https://github.com/PkuDavidGuan/TIoU-metric-python3) by PkuDavidGuan.
+
 ## State-of-the-art Results on Total-Text and CTW1500 (TIoU)
 We sincerely appreciate the authors of recent and previous state-of-the-art methods for providing their results for evaluating TIoU metric in curved text benchmarks. The results are listed below:
 
